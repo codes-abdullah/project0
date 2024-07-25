@@ -1,0 +1,40 @@
+*{
+  border: 1px solid black;
+}
+
+
+html{
+	height: 100%;
+}
+
+body{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header, .footer{
+  display: flex;
+  flex-direction: row;
+  background: red;
+}
+
+.hspacer{
+  width: 90%;
+}
+
+.left-group {
+  min-width: 220px;
+}
+
+.right-group{
+  min-width: 220px;
+  text-align: right;
+}
+
+
+.button{
+  background-color: yellow;
+}

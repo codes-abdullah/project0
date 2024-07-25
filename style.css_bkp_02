@@ -1,0 +1,28 @@
+*{
+	border: 1px solid black;
+}
+
+
+html{
+	height: 100%;
+	background-color: red;
+}
+
+
+body{
+	display: flex;
+	flex-direction: column;  
+}
+
+.header, .footer{
+	display: flex;
+	flex-direction: row;  
+}
+
+.hspacer{
+	flex-grow: 1;
+}
+
+
+
+

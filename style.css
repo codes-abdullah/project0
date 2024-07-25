@@ -1,0 +1,29 @@
+*{
+	outline: 1px solid black;
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+	background-color: red;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: column;	
+}
+
+
+.box{
+	display: flex;
+	flex-direction: row;
+}
+
+.hspacer{
+	flex-grow: 1;
+}
+
+.vspacer{
+	flex-grow: 1;
+}
