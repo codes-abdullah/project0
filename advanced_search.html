@@ -19,18 +19,121 @@
 		</div>
 		<div class="box vspacer">
 			<table>
-				<tr>
+				<tr  class="trhead">
+					<td>Find pages with...</td>
 					<td>
-						all these words:
+						
 					</td>
+					<td>To do this in the search box</td>
+				</tr>
+				<tr>
+					<td>all these words:</td>
 					<td>
 						<input type="text"/>
 					</td>
+					<td>Type the important words:  tricolor rat terrier</td>
+				</tr>
+				<tr>
+					<td>this exact word or phrase:</td>
 					<td>
-						 Type the important words:  tricolor rat terrier
+						<input type="text"/>
 					</td>
+					<td>Put exact words in quotes:  "rat terrier"</td>
+				</tr>
+				<tr>
+					<td>any of these words:</td>
+					<td>
+						<input type="text"/>
+					</td>
+					<td>Type OR between all the words you want:  miniature OR standard</td>
+				</tr>
+				<tr>
+					<td>none of these words:</td>
+					<td>
+						<input type="text"/>
+					</td>
+					<td>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</td>
+				</tr>
+				<tr>
+					<td>numbers ranging from:</td>
+					<td>
+						<input type="text"/>
+					</td>
+					<td>Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</td>
+				</tr>
+				<tr  class="trhead">
+					<td>Then narrow your results by...</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>language:</td>
+					<td>
+						<select name="example">
+						  <option value="en">English</option>
+						</select>
+					</td>
+					<td>Find pages in the language you select.</td>
+				</tr>
+				<tr>
+					<td>region:</td>
+					<td>
+						<select name="example">
+						  <option value="usa">USA</option>
+						</select>
+					</td>
+					<td>Find pages published in a particular region.</td>
+				</tr>
+				<tr>
+					<td>last update:</td>
+					<td>
+						<select name="example">
+						  <option value="24">past 24 house</option>						  
+						</select>
+					</td>
+					<td>Find pages updated within the time you specify.</td>
+				</tr>
+				<tr>
+					<td>site or domain:</td>
+					<td>
+						<input type="text"/>
+					</td>
+					<td>Search one site (like  wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</td>
+				</tr>
+				<tr>
+					<td>terms appearing:</td>
+					<td>
+						<select name="example">
+						  <option value="anywhere-in-the-page">anywhere in the page</option>
+						</select>
+					</td>
+					<td>Search for terms in the whole page, page title, or web address, or links to the page you're looking for.</td>
+				</tr>
+				<tr>
+					<td>file type:</td>
+					<td>
+						<select name="example">
+						  <option value="any-format">any format</option>
+						</select>
+					</td>
+					<td>Find pages in the format you prefer.</td>
+				</tr>
+				<tr>
+					<td>usage rights:</td>
+					<td>
+						<select name="example">
+						  <option value="not-filtered">not filtered</option>						  
+						</select>
+					</td>
+					<td>Find pages you are free to use yourself.</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</table>
+			<span><input type="button" value="Advanced Search"/></span>
 		</div>
 		<div class="box footer">
 			<div class="links-group">

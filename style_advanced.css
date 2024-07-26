@@ -1,5 +1,7 @@
 *{
+/*
 	outline: 1px solid black;
+*/
 	margin: 0;
 	padding: 0;
 }
@@ -143,4 +145,17 @@ span > a:hover{
 	text-align: right;
 }
 
+.trhead{
+	height: 50px;
+	font-size: 18px;
+}
 
+select{width: 100%;}
+input[type="text"]{
+	height: 20px;	
+}
+
+input[type="button"]{
+	width: 150px;
+	height: 30px;		
+}
